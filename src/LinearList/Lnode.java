@@ -1,3 +1,4 @@
+//已完成
 package LinearList;
 
 public class Lnode<T> implements Comparable<Lnode<T>>
