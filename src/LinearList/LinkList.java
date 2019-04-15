@@ -114,7 +114,7 @@ public class LinkList<T> extends AbsList<T> implements Iterable<T>
      * @param key   关键字
      * @return 索引位置
      */
-    public int indexof(int begin, int end, T key){return begin;}
+    public int indexOf(int begin, int end, T key){return begin;}
     /**
      * 同indexOf, 一般不用, 主要用于实现字典
      *
