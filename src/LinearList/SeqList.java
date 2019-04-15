@@ -129,8 +129,8 @@ public class SeqList<T> extends AbsList<T> implements Iterable<T>
     /**
      * 将顺序表转换为类型T的数组
      *
-     * @param a
-     * @return
+     * @param a 要转换的数组
+     * @return 转换后的数组
      */
     public T[] toArray(T[] a){return null;}
     ///////////////////////////////////////////////////////////
