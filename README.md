@@ -1,5 +1,5 @@
 # DingHaiJun
-丁海军《数据结构》课程部分代码。
+河海大学常州校区丁海军《数据结构》课程部分代码。
 
 环境: 
 - IntelliJ IDEA 2019.1.1 (Community Edition)
