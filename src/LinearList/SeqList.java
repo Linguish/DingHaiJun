@@ -157,7 +157,7 @@ public class SeqList<T> extends AbsList<T> implements Iterable<T>
      *
      * @param end 结束位置
      * @param x   要插入的数据
-     */ 
+     */
     protected void insertorder(int end, T x)
     {
         if(length == data.length) grow();
