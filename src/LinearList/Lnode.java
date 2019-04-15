@@ -25,7 +25,7 @@ public class Lnode<T> implements Comparable<Lnode<T>>
     }
     
     /**
-     * 实现接口 Compareable的 compareTo方法，用于链表节点比较大小
+     * 实现接口 Compareable的 compareTo 方法，用于链表节点比较大小
      *
      * @param e 用于比较的值
      * @return
@@ -41,8 +41,5 @@ public class Lnode<T> implements Comparable<Lnode<T>>
         else
         { throw new ClassCastException("类型无法比较"); }
     }
-    public String toString()
-    {
-        return data.toString();
-    }
+    public String toString(){return data.toString();}
 }

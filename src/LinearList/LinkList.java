@@ -44,68 +44,32 @@ public class LinkList<T> extends AbsList<T> implements Iterable<T>
     //    //public <E> E[] toArray(E[] a){return a;}//转换层与链表节点值类型相同的数组
     
     @Override
-    public T get(int i)
-    {
-        return null;
-    }
+    public T get(int i){return null;}
     @Override
-    public void set(int i, T x)
-    {
-    
-    }
+    public void set(int i, T x){}
     @Override
     public int indexOf(int begin, int end, T o)
     {
         return 0;
     }
     @Override
-    public void add(int i, T x)
-    {
-    
-    }
+    public void add(int i, T x){}
     @Override
-    public T remove(int i)
-    {
-        return null;
-    }
+    public T remove(int i){return null;}
     @Override
-    public Iterator<T> iterator()
-    {
-        return null;
-    }
+    public Iterator<T> iterator(){return null;}
     @Override
-    public boolean isEmpty()
-    {
-        return super.isEmpty();
-    }
+    public boolean isEmpty(){return super.isEmpty();}
     @Override
-    public int length()
-    {
-        return super.length();
-    }
+    public int length(){return super.length();}
     @Override
-    public void add(T x)
-    {
-        super.add(x);
-    }
+    public void add(T x){super.add(x);}
     @Override
-    public void append(T x)
-    {
-        super.append(x);
-    }
+    public void append(T x){super.append(x);}
     @Override
-    public int indexOf(T o)
-    {
-        return super.indexOf(o);
-    }
+    public int indexOf(T o){return super.indexOf(o);}
     @Override
-    public int indexOf(int begin, T o)
-    {
-        return super.indexOf(begin, o);
-    }
+    public int indexOf(int begin, T o){return super.indexOf(begin, o);}
     @Override
-    public T remove(T o)
-    {
-        return super.remove(o);
-    }
+    public T remove(T o){return super.remove(o);}
 }
