@@ -15,6 +15,17 @@ public class Lnode<T> implements Comparable<Lnode<T>>
         data = key;
         next = null;
     }
+    
+    /**
+     * 构造函数
+     * @param key 初始值
+     * @param next 下一个节点
+     */
+    public Lnode(T key, Lnode<T> next)
+    {
+        data = key;
+        this.next = next;
+    }
     /**
      * @param e 比较的值,判断是否相等使用
      * @return 如果相等true, 否则false
