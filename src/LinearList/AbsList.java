@@ -1,3 +1,6 @@
+/**
+ * @author 梁国熙
+ */
 package LinearList;
 
 import java.util.Iterator;
