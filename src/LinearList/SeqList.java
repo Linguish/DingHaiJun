@@ -1,11 +1,10 @@
 //已完成
 package LinearList;
 
-import java.lang.annotation.ElementType;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class SeqList <T> extends AbsList<T> implements Iterable<T>
+public class SeqList<T> extends AbsList<T> implements Iterable<T>
 {
     /**
      * 顺序表增量长度
@@ -45,19 +44,13 @@ public class SeqList <T> extends AbsList<T> implements Iterable<T>
      *
      * @param inc 增量, 默认值是16
      */
-    public void setInc(int inc)
-    {
-        increnentsize = inc;
-    }
+    public void setInc(int inc){increnentsize = inc;}
     /**
      * 设置新的容量
      *
      * @param newsize 新的容量
      */
-    public void setcapacity(int newsize)
-    {
-        data = Arrays.copyOf(data, newsize);
-    }
+    public void setcapacity(int newsize){data = Arrays.copyOf(data, newsize);}
     /**
      * 取得顺序表容量
      *
@@ -123,8 +116,7 @@ public class SeqList <T> extends AbsList<T> implements Iterable<T>
         {
             for(int i = 0; i<length; i++)
             {
-                if(data[i] == null)
-                { return i; }
+                if(data[i] == null){ return i; }
             }
         }
         else
@@ -179,10 +171,7 @@ public class SeqList <T> extends AbsList<T> implements Iterable<T>
      */
     public void sort()
     {
-        for(int i = 1; i<=length - 1; i++)
-        {
-            insertorder(i, (T)data[i]);
-        }
+        for(int i = 1; i<=length - 1; i++){insertorder(i, (T)data[i]);}
     }
     /**
      * 内部使用,以有序方式插入数据x
@@ -252,7 +241,6 @@ public class SeqList <T> extends AbsList<T> implements Iterable<T>
      * @return Object数组
      */
     public Object[] toArray(){return Arrays.copyOf(this.data, this.length);}
-    //todo:注释
     /**
      * 将顺序表转换为类型T的数组
      *
