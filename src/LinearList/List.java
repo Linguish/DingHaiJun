@@ -1,3 +1,4 @@
+//已完成
 package LinearList;
 
 public interface List<T>
