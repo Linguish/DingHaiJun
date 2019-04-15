@@ -63,9 +63,10 @@ public class SeqList<T> extends AbsList<T> implements Iterable<T>
      *
      * @param i 索引位置
      * @param x 设定值
+     * @return 修改成功true, 否则false
      */
     @Override
-    public void set(int i, T x){}
+    public boolean set(int i, T x){return false;}
     private int compare(T a, T b){return 0;}
     /**
      * 使用顺序查找算法, 查找值为o的数据元素的下标

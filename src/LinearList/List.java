@@ -27,8 +27,9 @@ public interface List<T>
      *
      * @param i 索引位置
      * @param x 设定值
+     * @return 修改成功true, 否则false
      */
-    void set(int i, T x);
+    boolean set(int i, T x);
     /**
      * 将x插入到第i位置
      *

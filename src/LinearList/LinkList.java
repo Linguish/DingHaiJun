@@ -49,8 +49,9 @@ public class LinkList<T> extends AbsList<T> implements Iterable<T>
      *
      * @param i 索引位置
      * @param x 设定值
+     * @return 修改成功true, 否则false
      */
-    public void set(int i, T x){}
+    public boolean set(int i, T x){return false;}
     /**
      * 将值为x的节点插入到i号位置
      *

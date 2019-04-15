@@ -17,8 +17,9 @@ public abstract class AbsList<T> implements Iterable<T>, List<T>
      *
      * @param i 索引位置
      * @param x 设定值
+     * @return 修改成功true, 否则false
      */
-    abstract public void set(int i, T x);
+    abstract public boolean set(int i, T x);
     /**
      * 查找从begin到end范围内的关键字, 返回下标
      *
