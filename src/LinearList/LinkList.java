@@ -48,10 +48,7 @@ public class LinkList<T> extends AbsList<T> implements Iterable<T>
     @Override
     public void set(int i, T x){}
     @Override
-    public int indexOf(int begin, int end, T o)
-    {
-        return 0;
-    }
+    public int indexOf(int begin, int end, T o){return 0;}
     @Override
     public void add(int i, T x){}
     @Override
