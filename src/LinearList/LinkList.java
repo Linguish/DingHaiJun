@@ -164,14 +164,8 @@ public class LinkList<T> extends AbsList<T> implements Iterable<T>
     private class LinkIterator implements Iterator<T>
     {
         @Override
-        public boolean hasNext()
-        {
-            return false;
-        }
+        public boolean hasNext(){return false;}
         @Override
-        public T next()
-        {
-            return null;
-        }
+        public T next(){return null;}
     }
 }
