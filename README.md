@@ -11,7 +11,7 @@
         -   [x] P42，程序清单2-3：`class Lnode<T>` 
         -   [x] P42，程序清单2-4：`LinkList<T>` 
     -   习题（Example文件夹内）
-        -   [ ] P62，11题（Josephus问题）：`class Example_2_11` 
+        -   [x] P62，11题（Josephus问题）：`class Example_2_11` 
         -   [ ] P63，12题（实现一元多项式的加法运算及多项式输出）：`class Example_2_12` 
 
 ## 环境
