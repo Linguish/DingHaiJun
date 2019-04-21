@@ -6,5 +6,8 @@ package LinearList.Example;
 
 public class Example_2_12
 {
-
+    public static void main(String[] args)
+    {
+        
+    }
 }
