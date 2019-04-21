@@ -56,13 +56,13 @@ public class SeqList<T> extends AbsList<T> implements Iterable<T>
      *
      * @return 顺序表容量
      */
-    int getcapacity(){ return data.length;}
+    public int getcapacity(){ return data.length;}
     /**
      * 取得顺序表长度, 同length()
      *
      * @return 顺序表长度
      */
-    int size(){return length;}
+    public int size(){return length;}
     /**
      * 取得顺序表下标为i的元素值,即data[i]
      *
@@ -192,7 +192,7 @@ public class SeqList<T> extends AbsList<T> implements Iterable<T>
         data[k + 1] = x;
     }
     /**
-     * 删除链表中指定位置的元素
+     * 删除指定位置的元素
      *
      * @param i 索引位置
      * @return 删除的元素
@@ -202,12 +202,10 @@ public class SeqList<T> extends AbsList<T> implements Iterable<T>
     {
         if(i<0 || i>length - 1)
         { throw new IndexOutOfBoundsException("下标越界i=" + i); }
-        T olddata = (T)data[i];
-        for(int j = 1; j<length - 1; j++)
-        {
-            data[j] = data[j + 1];
-            data[--length] = null;
-        }
+        T olddata = data[i];
+        for(int j = i; j<length - 1; j++)
+        {data[j] = data[j + 1];}
+        data[--length] = null;
         return olddata;
     }
     /**
