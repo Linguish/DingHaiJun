@@ -1,4 +1,3 @@
-//已完成
 package LinearList;
 
 import java.util.Arrays;
